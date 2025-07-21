@@ -22,7 +22,7 @@ cask "surge@5" do
   conflicts_with cask:    [
                    "surge",
                    "surge@4",
-                 ],
+                 ]
   depends_on macos: ">= :monterey"
 
   app "Surge.app"
